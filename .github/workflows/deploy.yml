@@ -3,7 +3,7 @@ name: Deploy to Portainer
 on:
   push:
     branch:
-      - 'testing'
+      - master
 
 jobs:
   deploy:
